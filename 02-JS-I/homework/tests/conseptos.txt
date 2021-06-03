@@ -1,0 +1,21 @@
+Variables
+
+es una caja donde se almacena sierta informacion para usarse mas tarde y no tener que volver a escribir esa misma informacion mas veces
+
+Strings
+
+siempre que este esceito entre comillas (   " hola  "   ) sera un Strings, son parrafos de texto que mostrara todo igual como aparecen entre las comilkas, letras, numeros y signos
+
+Funciones (argumentos, return)
+
+devuelve de dentto de la Funciones para terminar y cerrar dicha funcion
+
+Declaraciones if
+
+se usa para crear opsiones, de forma que dependiendo de una accion  (ejemplo una calle) elija derecha, izquierda o centro, peppendiendo de vomo se use
+
+Valores booleanos (true, false)
+
+seria la vercion de js decir correcto o incorrecto, si la hacion o variable es correcta se ejecuta una parte, si es incorecta se ejecuta otra omitiendo la primera accion(correcta) y viseversa
+
+ya :)
