@@ -1,0 +1,19 @@
+conceptos js2
+
+for
+
+son bucles, se seguira leyendo a si mismo asta alcansar la variante requerida para continuar, se usa para crear cadenas mientras ahorras codigo :)
+
+&&
+
+se usa para comparar dos valores y ver si son identico, diciendo que "manzana" &&(y) "manzana" son iguales o no
+
+||
+
+se usa para determinar si una o varias variables son verdaderas, solo votanfo falso si ninguna lo es
+
+!
+
+se usa para devolver lo opuesto de lo escrito, falso si es verdadero y viseversa, y no ejecutar si una funcion dice que si ejecute
+
+ya? *u*)
