@@ -1,0 +1,5 @@
+Arrays
+
+son varibles o datos en forma de cadena, utilizados para ahorrar espacio y ayuda a la hora de hacer bucles
+
+yep 7u7
