@@ -132,20 +132,31 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  for(asd = 0; asd < arguments.length; asd++){
-   arguments[asd] = arguments[asd] * arguments[asd + 1]
-  }
+  var asd = 1
   if(arguments.length === 0){
     return 0
   }
-  return arguments[asd - 1]
+  if(arguments.length === 1){
+    return arguments[0]
+  }
+  for( dsa = 0; dsa < arguments.length; dsa++){
+    asd *= arguments [dsa]
+  }
+  return asd
 }
-
 
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-
+  var dsa = 0
+  var sda = [ ]
+  for(asd = 0; asd < arreglo.length; asd++){
+    if(arreglo[asd] > 18){
+     sda[dsa] = arreglo[asd]
+      dsa++
+    }
+  }
+  return sda.length
 }
 
 
@@ -166,7 +177,16 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  
+  if(n === 9){
+    return true
+  }
+  if( n > 89 && n < 100){
+    return true
+  }
+  if( n > 899 && n < 1000){
+    return true
+  }
+  return false
 }
 
 
@@ -207,8 +227,8 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
-  var dsa = 0
-  var sda = [0, 0]
+  var dsa = [ ]
+  var sda = [ ]
   for(asd = 0; asd < array.length; asd++){
     if(array[asd] > 100){
      sda[dsa] = array[asd]
@@ -227,6 +247,18 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var asd = [ ]
+  for(var dsa = 0; dsa < 10; dsa++){
+    numero += 2
+    asd.push(numero)
+    if(dsa === numero){
+      break
+    }
+  }
+  if(asd.length < 10){
+    return "Se interrumpió la ejecución"
+  }
+  return asd
 }
 
 
@@ -237,6 +269,15 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  var asd = [ ]
+  for( var dsa = 0; dsa < 10; dsa++){
+    if( dsa === 5){
+      continue
+    }
+    numero += 2
+    asd.push(numero)
+  }
+  return asd
 }
 
 

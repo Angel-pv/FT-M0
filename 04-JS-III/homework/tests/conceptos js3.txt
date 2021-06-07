@@ -1,5 +1,5 @@
 Arrays
 
-son varibles o datos en forma de cadena, utilizados para ahorrar espacio y ayuda a la hora de hacer bucles
+som multiples datos com un mismo valor, enumerados que sirven para ahorrar codigo y enlansar diferentes datos
 
 yep 7u7
